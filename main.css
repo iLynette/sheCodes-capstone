@@ -555,6 +555,13 @@ li {
     color: #ec5242;
     font-weight: bolder;
     font-family: "Cocogoose", sans-serif;
+    background-image: url(./images/set.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-font-smoothing: antialiased;
   }
 
   .sub-section {
