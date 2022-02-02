@@ -1,5 +1,10 @@
 @import url('https://fonts.cdnfonts.com/css/cocogoose');
-@import url('https://fonts.cdnfonts.com/css/Lato');
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+@font-face {
+  font-family: 'cocogoose';
+  src: url(fonts/cocogoose-pro.regular.ttf);
+}
 
 * {
   margin: 0;
@@ -16,14 +21,19 @@ li {
   .mobile-nav {
     display: block;
     font-size: 30px;
-    margin: 20px;
+    background-color: #f5f3f3;
+    padding: 20px;
   }
 
   .firstMenu ul {
     display: none;
   }
 
-  .secondMenu {
+  .logo {
+    display: none;
+  }
+
+  .light {
     display: none;
   }
 
@@ -35,17 +45,35 @@ li {
     display: none;
   }
 
-  /* .lightHidden{
-        display: flex;
-        flex-direction: column;
-        font-size: 40px;
-        font-weight: 600;
-        color: #ec5242;
-    } */
-
   .lightHidden a {
     color: #ec5242;
     padding: 20px;
+  }
+
+  .mail a {
+    color: #000;
+    text-decoration: underline;
+  }
+
+  .mobileNav {
+    display: none;
+    width: 100%;
+    background-color: #837d7d;
+  }
+
+  .mobileNav ul li {
+    text-align: center;
+    padding: 15px;
+  }
+
+  .mobileNav ul li a {
+    color: #3c4355;
+    transition: 0.5s;
+    transition: transform 0.5s;
+  }
+
+  .mobileNav ul li a:hover {
+    color: #ec5242;
   }
 
   .learning {
@@ -54,7 +82,7 @@ li {
     background-position: center;
     background-size: cover;
     justify-content: center;
-    height: 55vh;
+    height: 75vh;
   }
 
   .content {
@@ -74,6 +102,7 @@ li {
     color: #ec5242;
     font-weight: 600;
     font-size: 25px;
+    font-family: "Cocogoose", sans-serif;
   }
 
   .title h1 {
@@ -82,6 +111,7 @@ li {
     font-size: 30px;
     color: #ec5242;
     font-weight: bolder;
+    font-family: "Cocogoose", sans-serif;
   }
 
   .sub-section {
@@ -90,6 +120,7 @@ li {
     font-size: 14px;
     border: 4px solid #fff;
     width: 80%;
+    font-family: "Lato", sans-serif;
   }
 
   .date {
@@ -213,7 +244,7 @@ li {
     background-position: center;
     background-size: cover;
     justify-content: center;
-    height: 55vh;
+    height: 70vh;
   }
 
   .commons {
@@ -228,6 +259,7 @@ li {
   .she {
     font-size: 20px;
     color: #ec5242;
+    font-family: "Lato", sans-serif;
   }
 
   .commons h2 {
@@ -235,6 +267,7 @@ li {
     color: #ec5242;
     font-size: 35px;
     font-weight: 800;
+    font-family: "Lato", sans-serif;
   }
 
   .commons p {
@@ -251,11 +284,6 @@ li {
     width: 80%;
     text-align: center;
     font-size: 16px;
-  }
-
-  .mail a {
-    color: #000;
-    text-decoration: underline;
   }
 
   .sheCodes {
@@ -291,6 +319,8 @@ li {
     text-align: center;
     border: 3px solid rgb(247, 243, 243);
     padding: 30px;
+    font-size: 27px;
+    font-weight: 800;
   }
 
   .alone {
@@ -374,7 +404,7 @@ li {
   .icons1 p {
     text-align: center;
     font-size: 18px;
-    padding: 20px;
+    padding-top: 10px;
   }
 
   .page-link {
@@ -394,18 +424,37 @@ li {
     color: #fff;
   }
 
-  .icons {
+  .icons2 p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    gap: 10px;
-    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 5px;
+    color: #fff;
+    font-size: 20px;
+    height: 35px;
   }
 }
 
 @media screen and (min-width: 768px) {
+  .mobile-nav {
+    display: none;
+  }
+
   .navbarHidden {
+    display: none;
+  }
+
+  .navbar-close-menu {
+    display: none;
+  }
+
+  .mobileNav {
+    display: none;
+  }
+
+  .hamburger {
     display: none;
   }
 
@@ -433,7 +482,7 @@ li {
     color: #fff;
   }
 
-  .mailAddress a {
+  .mailAddress {
     color: #fff;
   }
 
@@ -441,11 +490,19 @@ li {
     color: #d3d3d3;
   }
 
+  .light li a {
+    color: #837d7d;
+  }
+
   .secondMenu {
     display: flex;
     justify-content: space-between;
     width: 100%;
     background-color: rgb(241, 237, 237);
+  }
+
+  .secondMenu ul a:hover {
+    color: #ec5242;
   }
 
   .logo img {
@@ -460,10 +517,6 @@ li {
     gap: 15px;
     margin-top: 20px;
     margin-right: 100px;
-  }
-
-  .light li a {
-    color: #837d7d;
   }
 
   .web {
@@ -492,6 +545,7 @@ li {
     color: #ec5242;
     font-weight: 600;
     font-size: 35px;
+    font-family: "Cocogoose", sans-serif;
   }
 
   .title h1 {
@@ -500,13 +554,14 @@ li {
     font-size: 43px;
     color: #ec5242;
     font-weight: bolder;
+    font-family: "Cocogoose", sans-serif;
   }
 
   .sub-section {
     padding: 20px;
     font-size: 14px;
     border: 4px solid #fff;
-    width: 40%;
+    width: 50%;
   }
 
   .date {
@@ -564,6 +619,16 @@ li {
     background-color: rgb(29, 31, 31);
     border-radius: 8px;
     border: 3px solid rgb(27, 25, 25);
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    height: auto;
+    width: 500px;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .forum:hover {
+    transform: scale(1.1);
+    border: 2px solid rgb(224, 218, 218);
   }
 
   .forum i {
@@ -625,7 +690,7 @@ li {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 80%;
+    width: 100%;
     margin: 5px auto;
     padding-top: 30px;
     padding-bottom: 20px;
@@ -634,6 +699,7 @@ li {
 
   .icons p {
     font-size: 20px;
+    color: #fff;
   }
 
   .page-links {
@@ -678,6 +744,7 @@ li {
   .she {
     color: #ec5242;
     font-size: 25px;
+    font-family: "Lato", sans-serif;
   }
 
   .commons h2 {
@@ -687,8 +754,9 @@ li {
     text-align: center;
     width: 40%;
     color: #ec5242;
-    font-size: 30px;
+    font-size: 45px;
     font-weight: bolder;
+    font-family: "Cocogoose", sans-serif;
   }
 
   .commons p {
@@ -844,8 +912,16 @@ li {
     background-color: #000;
   }
 
-  .icons1 p {
-    font-size: 20px;
+  .icons2 p {
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 5px;
     color: #fff;
+    font-size: 20px;
+    height: 80px;
   }
 }

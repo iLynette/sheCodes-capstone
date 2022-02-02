@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./file.css">
     <title>SheCodes program</title>
 </head>
 <body>
@@ -23,34 +24,32 @@
 
         <nav class="secondMenu">
             <div class="logo">
-                <img src="./images/logos.png" alt="logo">
+                <a href="./index.html"><img class="climate-logo" src="./images/logos.png" alt=""></a>
             </div>
             <ul class="light">
-                <li class="home"><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
+                <li class="home"><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
                 <li><a href="#">Blog</a></li>
                 <li><a href="#">News</a></li>
                 <li><a href="#">Sponsor</a></li>
                 <li><a href="#" class="web">Call Us</a></li>
             </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars" aria-hidden="true" id="menu"></i>
+            </div>
+            <nav class="mobileNav">
+                <ul id="nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Sponsor</a></li>
+                  </ul>
+            </nav>
         </nav>
     </header>
 
     <section class="learning">
-
-        <div class="navbarHidden">
-            <i class="fas fa-bars mobile-nav" aria-hidden="true"></i>
-            <div class="navbar-close-menu">
-                <img src="./images/x.png" id="cross-sign" alt="close-menu">
-            </div>
-            <ul class="lightHidden">
-                <li class="home"><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">News</a></li>
-                <li><a href="#">Sponsor</a></li>
-            </ul>
-        </div>
 
         <div class="content">
             <div class="title">
@@ -109,7 +108,15 @@
     </section>
 
     <section class="speakers">
-    hh
+        <h2>Featured Speakers</h2>
+        <hr class="programLine">
+        <div class="speakersContainer" id="speakers"></div>
+        <div class="moreLess">
+            <button class="btns" type="button">
+                MORE
+                <img src="./images/arrow.png" alt="arrow">
+            </button>
+        </div>
     </section>
 
 
@@ -131,8 +138,8 @@
     <footer class="icons">
         <div class="icons1">
             <p>Copyright © 2021 All rights reserved | sheCodes</p>
-            <h3 class="mailAddress"><a href="acholahlynette111@gmail.com">shecodes@gmail.com</a></h3>
         </div>
     </footer>
+<script src="./script.js"></script>
 </body>
 </html>
