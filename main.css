@@ -37,19 +37,6 @@ li {
     display: none;
   }
 
-  .lightHidden {
-    display: none;
-  }
-
-  .navbar-close-menu {
-    display: none;
-  }
-
-  .lightHidden a {
-    color: #ec5242;
-    padding: 20px;
-  }
-
   .mail a {
     color: #000;
     text-decoration: underline;
@@ -82,9 +69,15 @@ li {
     background-color: #eeee;
   }
 
+  .activities img {
+    margin-left: 30px;
+    width: 90%;
+    padding: 10px;
+  }
+
   .hamburger a img {
     width: 30px;
-    margin: 20px 20px
+    margin: 20px 20px;
   }
 
   .learning {
@@ -392,12 +385,6 @@ li {
     margin-top: 100px;
     color: #fff;
     font-size: 23px;
-  }
-
-  .activities img {
-    margin-left: 30px;
-    width: 90%;
-    padding: 10px;
   }
 
   footer {
