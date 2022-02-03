@@ -3,7 +3,7 @@ const mobileNav = document.querySelector('.mobileNav');
 const menuList = document.querySelectorAll('#nav li a');
 
 function toggleMenu() {
-  if (mobileNav.style.display === 'none') {
+  if (mobileNav.style.display !== 'block') {
     mobileNav.style.display = 'block';
     menu.src = 'images/x.png';
   } else {
