@@ -86,7 +86,7 @@ li {
     background-position: center;
     background-size: cover;
     justify-content: center;
-    height: 75vh;
+    height: 90vh;
   }
 
   .content {
@@ -148,12 +148,13 @@ li {
 
   .program {
     width: 100%;
-    background-color: #000;
+    background-color: #272a31;
     display: flex;
     flex-direction: column;
     justify-content: center;
     color: white;
-    padding: 20px;
+    padding: 3em 0.5em;
+    font-family: "Lato", sans-serif;
   }
 
   .partners {
@@ -199,13 +200,15 @@ li {
   }
 
   .forum {
+    margin: 0 auto;
+    width: 95%;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
     background-color: rgb(51, 54, 54);
     border-radius: 8px;
-    border: 3px solid rgb(27, 25, 25);
+    border: 3px solid #272a32;
     gap: 20px;
   }
 
@@ -232,6 +235,7 @@ li {
     color: #fff;
     background-color: #ec5242;
     border: none;
+    font-family: "Lato", sans-serif;
   }
 
   .speakers {
@@ -536,7 +540,8 @@ li {
     background-position: center;
     background-size: cover;
     justify-content: center;
-    height: 88vh;
+    height: 110vh;
+    position: relative;
   }
 
   .content {
@@ -593,12 +598,12 @@ li {
 
   .program {
     width: 100%;
-    height: 55vh;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     padding-top: 20px;
     gap: 20px;
-    background-color: #000;
+    background-color: #272a31;
   }
 
   .main {
@@ -611,6 +616,11 @@ li {
     font-family: "Lato", sans-serif;
   }
 
+  .main h3 {
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+
   .redLine {
     width: 4%;
     height: 1px;
@@ -621,8 +631,11 @@ li {
   .lecture {
     display: flex;
     flex-direction: row;
-    width: 80%;
-    margin: 5px auto;
+    width: 90%;
+    margin: 0 auto;
+    gap: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 
   .forum {
@@ -631,14 +644,14 @@ li {
     justify-content: center;
     align-items: center;
     padding: 30px;
-    background-color: rgb(29, 31, 31);
+    background-color: rgb(51, 54, 54);
     border-radius: 8px;
-    border: 3px solid rgb(27, 25, 25);
+    border: 3px solid #272a31;
     font-family: "Lato", sans-serif;
     text-align: center;
     height: auto;
     width: 500px;
-    transition: transform 0.2s ease-in-out;
+    transition: transform 0.1s ease-in-out;
   }
 
   .forum:hover {
