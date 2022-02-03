@@ -60,7 +60,6 @@ li {
     width: 100%;
     height: 100vh;
     background-color: #fff;
-    position: fixed;
   }
 
   .mobileNav ul li {
@@ -83,7 +82,7 @@ li {
     padding: 20px;
     width: 100%;
     font-size: 30px;
-    background-color:#eeebeb;
+    background-color: #eeebeb;
   }
 
   .learning {
@@ -468,6 +467,10 @@ li {
     display: none;
   }
 
+  .mobileNav {
+    display: none;
+  }
+
   .firstMenu {
     width: 100%;
     display: flex;
@@ -508,7 +511,6 @@ li {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    position: fixed;
     z-index: 1;
     background-color: rgb(241, 237, 237);
   }
