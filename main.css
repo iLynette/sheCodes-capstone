@@ -158,8 +158,10 @@ li {
   }
 
   .partners {
+    display: flex;
+    flex-direction: column;
     width: 100%;
-    background-color: #000;
+    background-color: #454a57;
     padding-top: 20px;
     margin-bottom: 20px;
   }
@@ -395,15 +397,15 @@ li {
   }
 
   footer {
-    height: 60px;
-    background-color: #000;
+    height: 100px;
+    background-color: #fff;
   }
 
   .icons1 {
     display: flex;
     flex-direction: column;
     margin: 20px;
-    color: #fff;
+    color: #000;
     font-family: "Lato", sans-serif;
   }
 
@@ -422,12 +424,44 @@ li {
   }
 
   .supporters {
+    width: 80%;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 15px;
     font-size: 22px;
     padding-bottom: 20px;
+    height: 35%;
     color: #fff;
+    font-family: "Lato", sans-serif;
+  }
+
+  .supporters .a {
+    font-size: 18px;
+    font-weight: 600;
+    color: #d3d3d3;
+    font-family: "Lato", sans-serif;
+  }
+
+  .supporters .b {
+    font-size: 18px;
+    font-weight: 600;
+    color: #adabab;
+    font-family: "Lato", sans-serif;
+  }
+
+  .supporters .c {
+    font-size: 18px;
+    font-weight: 600;
+    color: #252222;
+    font-family: "Lato", sans-serif;
+  }
+
+  .supporters .d {
+    font-size: 18px;
+    font-weight: 600;
+    color: #868282;
     font-family: "Lato", sans-serif;
   }
 
@@ -748,15 +782,18 @@ li {
     flex-direction: row;
     justify-content: space-around;
     width: 100%;
-    margin: 5px auto;
-    padding-top: 30px;
+    margin: 0 auto;
     padding-bottom: 20px;
-    height: 10vh;
+    height: 20vh;
   }
 
   .icons p {
     font-size: 20px;
-    color: #fff;
+    color: #000;
+  }
+
+  .icons1 .logo {
+    width: 100px;
   }
 
   .page-links {
@@ -965,12 +1002,10 @@ li {
     flex-direction: row;
     justify-content: center;
     width: 100%;
-    margin: 5px auto;
-    padding-top: 30px;
+    padding-top: 60px;
     padding-bottom: 20px;
-    height: 10vh;
     gap: 60px;
-    background-color: #000;
+    background-color: #fff;
     font-family: "Lato", sans-serif;
   }
 
