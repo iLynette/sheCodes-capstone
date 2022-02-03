@@ -508,10 +508,11 @@ li {
   }
 
   .myLogo a {
-    color: red;
-    font-size: 30px;
+    color: rgb(117, 69, 69);
+    font-size: 35px;
     padding-top: 30px;
     margin-left: 140px;
+    font-weight: 800;
   }
 
   .firstMenu {
