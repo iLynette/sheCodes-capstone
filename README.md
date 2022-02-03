@@ -1,8 +1,11 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# SheCodes' Women's Conferance call
 
-> This project is on a women's conference.
+> This project is about women in the tech space. They have bi-monthly calls where we help each other find coding help, freelancing opportunities or just someone to talk to.
+
+![screenshot](./two.png)
+![screenshot](./one.png)
 
 
 ## Built With
@@ -12,9 +15,9 @@
 - Javascript
 - VScode
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+For the link to the live demo, [Click here](https://ilynette.github.io/sheCodes-capstone/)
 
 
 ## Getting Started
