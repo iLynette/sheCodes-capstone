@@ -75,14 +75,14 @@ function toggleMenu() {
     menu.src = './images/x.png';
   } else {
     mobileNav.style.display = 'none';
-    menu.src = 'far-bars';
+    menu.src = './images/menu.png';
   }
 }
 menu.addEventListener('click', toggleMenu);
 
 function hideMenu() {
   mobileNav.style.display = 'none';
-  menu.src = 'far-bars';
+  menu.src = './images/menu.png';
 }
 
 menuList.forEach((event) => {
