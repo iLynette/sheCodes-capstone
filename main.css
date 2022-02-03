@@ -689,11 +689,11 @@ li {
   }
 
   .partners {
-    background-color: #000;
+    background-color: #454a57;
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 18vh;
+    height: 22vh;
   }
 
   .partner {
@@ -706,6 +706,34 @@ li {
     justify-content: center;
     align-items: center;
     gap: 30px;
+    font-family: "Lato", sans-serif;
+  }
+
+  .supporters .a {
+    font-size: 30px;
+    font-weight: 600;
+    color: #d3d3d3;
+    font-family: "Lato", sans-serif;
+  }
+
+  .supporters .b {
+    font-size: 30px;
+    font-weight: 600;
+    color: #adabab;
+    font-family: "Lato", sans-serif;
+  }
+
+  .supporters .c {
+    font-size: 30px;
+    font-weight: 600;
+    color: #252222;
+    font-family: "Lato", sans-serif;
+  }
+
+  .supporters .d {
+    font-size: 30px;
+    font-weight: 600;
+    color: #868282;
     font-family: "Lato", sans-serif;
   }
 
