@@ -23,7 +23,22 @@ For the link to the live demo, [Click here](https://ilynette.github.io/sheCodes-
 ## Getting Started
 
 
-To get a local copy up and running you just need to have a browser of your choice
+To get a local copy up and running you just need to follow the following steps;
+
+-Clone this repository with
+
+git clone https://github.com/iLynette/sheCodes-capstone.git using your terminal or command line.
+
+-Change to the project directory by entering :
+
+cd sheCodes-capstone in the terminal.
+
+-run code . to open it in vscode
+
+
+It is a website and It can be opened in any browser.
+
+It is a mobile-first layout which is also responsive to different screens including desktops and laptops.
 
 
 
@@ -48,9 +63,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Thanks to Cindy Shin whose design of cc global summit 2015 was used.
 
 ## 📝 License
 
