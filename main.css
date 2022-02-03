@@ -18,6 +18,10 @@ li {
 }
 
 @media screen and (max-width: 768px) {
+  .myLogo {
+    display: none;
+  }
+
   .mobile-nav {
     display: block;
     font-size: 30px;
@@ -497,6 +501,17 @@ li {
 
   .hamburger {
     display: none;
+  }
+
+  .myLogo {
+    padding: 20px;
+  }
+
+  .myLogo a {
+    color: red;
+    font-size: 30px;
+    padding-top: 30px;
+    margin-left: 140px;
   }
 
   .firstMenu {
