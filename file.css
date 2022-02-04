@@ -1,0 +1,135 @@
+@media screen and (min-width: 768px) {
+  .speakers h2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  .programLine {
+    width: 5%;
+    margin-left: 48%;
+  }
+
+  .speakerLine {
+    width: 10%;
+  }
+
+  .start {
+    display: flex;
+    height: auto;
+    margin: 15px 15px 10px 15px;
+    border-bottom: solid;
+    border-color: rgb(240, 242, 245);
+    border-width: 1px;
+    padding-bottom: 35px;
+    background: #fff;
+  }
+
+  .speakersContainer {
+    padding: 50px 200px 50px 200px;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+  }
+
+  .speakerDescription {
+    margin: 20px;
+    font-family: "Lato", sans-serif;
+  }
+
+  .speakerDescription h3 {
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 15px;
+  }
+
+  .speakerDescription h4 {
+    padding-bottom: 15px;
+    color: #ec5242;
+    font-weight: 500;
+    font-family: "Lato", sans-serif;
+  }
+
+  .description {
+    padding-top: 20px;
+  }
+
+  .description a {
+    color: #000;
+    font-weight: 500;
+    font-family: "Lato", sans-serif;
+  }
+
+  .moreLess {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .programLine {
+    width: 10%;
+  }
+
+  .speakerLine {
+    width: 10%;
+  }
+
+  .start {
+    display: grid;
+    grid-template-columns: auto auto;
+    height: auto;
+    background: #fff;
+    margin: 10px;
+    padding-bottom: 10px;
+    border-bottom: solid;
+    border-color: rgb(238, 242, 245);
+  }
+
+  .speakerDescription {
+    margin: 10px;
+  }
+
+  .speakerDescription h3 {
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 15px;
+  }
+
+  .speakerDescription h4 {
+    padding-bottom: 15px;
+    color: #ec5242;
+    font-weight: 500;
+    font-family: "Lato", sans-serif;
+  }
+
+  .description {
+    padding-top: 20px;
+  }
+
+  .description a {
+    color: #000;
+    font-weight: 500;
+    font-family: "Lato", sans-serif;
+  }
+
+  .moreLess {
+    padding-top: 20px;
+  }
+
+  .btns {
+    background-color: #fff;
+    border: 2px solid rgb(204, 201, 201);
+    display: flex;
+    justify-content: center;
+    width: 60vw;
+  }
+
+  .btns p {
+    font-size: 17px;
+    padding-top: 10px;
+  }
+
+  .btns img {
+    width: 8%;
+  }
+}
