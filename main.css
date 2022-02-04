@@ -59,6 +59,26 @@ li {
     font-size: 30px;
   }
 
+  .icons2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-family: "Lato", sans-serif;
+    gap: 20px;
+  }
+
+  .icons2 span {
+    padding-left: 17px;
+    padding-top: 15px;
+  }
+
+  .icons2 a {
+    color: rgb(117, 69, 69);
+    font-size: 27px;
+  }
+
   .mobileNav ul li a {
     color: #000;
     transition: 0.5s;
@@ -435,7 +455,7 @@ li {
     align-items: center;
     gap: 15px;
     font-size: 22px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
     height: 35%;
     color: #fff;
     font-family: "Lato", sans-serif;
@@ -474,9 +494,9 @@ li {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 24px;
     margin-bottom: 5px;
-    color: #fff;
+    color: #000;
     font-size: 20px;
     height: 35px;
   }
@@ -542,6 +562,11 @@ li {
 
   .mailAddress {
     color: #fff;
+  }
+
+  .icons2 a {
+    color: rgb(117, 69, 69);
+    font-size: 27px;
   }
 
   .dark li a {
@@ -1025,15 +1050,24 @@ li {
   }
 
   .icons2 p {
-    background-color: #000;
+    background-color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    padding-top: 10px;
     margin-bottom: 5px;
-    color: #fff;
+    color: #000;
     font-size: 20px;
     height: 80px;
+  }
+
+  .icons2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-family: "Lato", sans-serif;
+    gap: 20px;
   }
 }
