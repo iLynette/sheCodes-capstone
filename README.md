@@ -4,8 +4,8 @@
 
 > This project is about women in the tech space. They have bi-monthly calls where we help each other find coding help, freelancing opportunities or just someone to talk to.
 
-![screenshot](./two.png)
-![screenshot](./one.png)
+![screenshot](./images/two.png)
+![screenshot](./images/one.png)
 
 
 ## Built With
